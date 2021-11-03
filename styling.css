@@ -1,0 +1,45 @@
+.header{
+    color: lightcoral;
+    border: 10px solid dimgray;
+    background-color: #696969;
+    /* font-size:x-large; */
+    font-weight:lighter;
+}
+
+
+.gridA{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+
+.gridB{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+
+.img{
+    border: 3px solid rgb(152, 253, 0);
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    column-gap: 10px;  
+}
+
+
+body{
+    background-color: #ffffcc;
+}
+
+p{
+    font-family: comic sans ms;
+    font-weight: italic;
+}
+
+ol,ul{
+    font-family: comic sans ms;
+}
